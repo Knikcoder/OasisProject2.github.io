@@ -1,0 +1,92 @@
+        
+        body {  
+            background-color: #f0f5f3;  
+            margin-top: -2%;
+           
+        }  
+    #details{
+        margin-left: 10%;
+        align-content: justify;
+    }
+    .box{
+        margin: 0;
+        padding: 0;
+        height: 100px;
+        color: #020403;
+        text-shadow: 5px 5px 10px rgb(46, 41, 41);  
+        text-align: center;
+        font-size: 32px;
+        border: #010101;
+      }
+        #title {  
+            text-align: center;  
+            background-color: black;
+            color: #010101;
+            text-shadow: 5px 5px 10px white;  
+            font-size: 8vh;  
+            height: 50px;
+        } 
+        div#tribute-data {  
+            background-color: rgba(17, 53, 33, 0.25);  
+            box-shadow: 20px 20px 20px #010b01;  
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+            padding: 25px 25px;  
+            margin-left: 20%;
+            margin-right: 20%; 
+            margin-top: 5%;
+        }   
+        #tribute-data-head{
+            margin-left: 0%;
+            color: rgb(14, 29, 58);
+        }
+        .slide {
+            font-family: Arial, Helvetica, sans-serif;
+            width:100%;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+            height:500px;
+            overflow-x: hidden;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            }
+            
+            .slide1 {
+            background-image: url("https://assets.entrepreneur.com/content/3x2/2000/20171012070556-Karnataka.jpeg?auto=webp&quality=95&crop=16:9&width=675");
+            }
+            .slide2 {
+            background-image: url("https://starofmysore.com/wp-content/uploads/2018/03/news-10-6.jpg");
+            }
+            .slide3 {
+            background-image: url(
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZmNmu-pKa1HNzDVzz7JQBi2ozxbTeEzZiskCRCQmNYrF83IiSY9CNKTNMbJAjt_MNmbQ&usqp=CAU");
+            }
+
+            .arrow {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            margin-top: 105px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            }
+
+            #arrow-left {
+            border-width: 20px 30px 20px 0;
+            border-color: transparent rgb(8, 31, 98) transparent transparent;
+            left: 0;
+            margin-left: 30px;
+            }
+            
+            #arrow-right {
+            border-width: 20px 0 20px 30px;
+            border-color: transparent transparent transparent rgb(67, 25, 174);
+            right: 0;
+            margin-right: 20px;
+            }
+            
+            footer{
+                justify-content: center;
+            }
